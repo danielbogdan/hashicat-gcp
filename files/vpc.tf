@@ -1,3 +1,5 @@
+network_name = "gaurav-network"
+project_id = "var.project"
 subnets = [
   {
     subnet_name   = "gaurav-subnet"
