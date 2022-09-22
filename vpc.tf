@@ -1,4 +1,4 @@
-module "network" {
+module "vpc" {
   source  = "app.terraform.io/hashicat-awss/network/google"
   version = "3.4.0"
   network_name = "gaurav-network"
