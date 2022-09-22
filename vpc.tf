@@ -1,7 +1,8 @@
 module "network" {
   source  = "terraform-google-modules/network/google"
   version = "3.4.0"
-  # insert the 3 required variables here
+  network_name = "gaurav-network"
+  project_id   = "var.project"
 }
 subnets = [
   {
