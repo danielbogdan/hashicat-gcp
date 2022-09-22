@@ -1,5 +1,5 @@
 module "network" {
-  source  = "terraform-google-modules/network/google"
+  source  = "app.terraform.io/hashicat-awss/network/google"
   version = "3.4.0"
   network_name = "gaurav-network"
   project_id   = "var.project"
